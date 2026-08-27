@@ -24,7 +24,7 @@ This scans your project, figures out your framework, generates an OpenAPI spec, 
 
 Every SDK captures the same thing in the same wire format, and every one of them logs asynchronously. An upload that fails never touches your request path.
 
-[onboarding](https://github.com/restlesshq/onboarding) is what actually runs when you type `npx restless init`. [demo](https://github.com/restlesshq/demo) is a handful of small APIs to try it against.
+[onboarding](https://github.com/restlesshq/onboarding) is the open source CLI behind `npx restless init`, so you can read exactly what it does to your codebase before you run it. [demo](https://github.com/restlesshq/demo) is a set of small example APIs to try it on first.
 
 ---
 
